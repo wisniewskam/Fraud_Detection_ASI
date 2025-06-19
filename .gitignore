@@ -176,3 +176,4 @@ __pycache__/
 .ipynb_checkpoints/
 
 model_predictor/
+model_predictor.zip
