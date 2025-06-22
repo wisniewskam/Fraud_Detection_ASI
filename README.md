@@ -7,8 +7,8 @@ This project is a modular fraud detection system built using Kedro, trained with
 - AutoML-based classifier (AutoGluon)
 - Cloud model storage (Google Cloud Storage)
 - Containerized via Docker
-- REST API with FastAPI (served via Uvicorn)
-- Visual interface with Gradio (for non-technical users)****
+- REST API with FastAPI (Uvicorn)
+- Visual interface with Gradio (for users)
 
 
 ## How to Run Locally
@@ -35,7 +35,7 @@ REST API: http://localhost:8000
 Gradio Web UI: http://localhost:8000/gradio
 
 ## Docker support
-To build and run the app in a container:
+To build and run the app in a container (make sure Docker is active):
 
 ```bash
 docker build -t fraud-detector-app .
