@@ -177,3 +177,5 @@ __pycache__/
 
 model_predictor/
 model_predictor.zip
+
+secrets/

@@ -1,16 +1,17 @@
+autogluon
+fastapi
+google-cloud-storage
 ipython>=8.10
+joblib
 jupyterlab>=3.0
+kedro[jupyter]~=0.19.13
 kedro-datasets>=3.0
 kedro-viz>=6.7.0
-kedro[jupyter]~=0.19.13
 notebook
-scikit-learn~=1.5.1
-setuptools; python_version >= "3.12"
-fastapi
-uvicorn
-scikit-learn
-joblib
-google-cloud-storage
 numpy
+pandas
 pydantic
-
+pyspark
+scikit-learn~=1.5.1
+uvicorn
+gradio
